@@ -218,7 +218,9 @@
       ["LinkedIn", P.linkedin],
       ["CV", P.cv],
     ].filter(([, url]) => url);
-    $("#social").innerHTML = social.map(([label, url]) => `<li><a href="${esc(url)}">${esc(label)}</a></li>`).join("");
+    $("#social").innerHTML = social
+      .map(([label, url]) => `<li><a href="${esc(url)}"${url === P.cv ? " download" : ""}>${esc(label)}</a></li>`)
+      .join("");
 
     $("#research-intro").innerHTML = tr(S.research.intro);
     $("#research-themes").innerHTML = S.research.papers.map(paperHtml).join("");
@@ -242,12 +244,12 @@
     $("#teaching-list").innerHTML = timeline(S.teaching, "term");
     $("#email-line").innerHTML =
       `${esc(tr("Email"))}: <a href="mailto:${esc(P.email)}">${esc(P.email)}</a>.` +
-      (P.cv ? ` <a href="${esc(P.cv)}">${esc(tr("Download my CV"))}</a>.` : "");
+      (P.cv ? ` <a href="${esc(P.cv)}" download>${esc(tr("Download my CV"))}</a>.` : "");
 
     // External links open in a new tab.
     $$("a[href]").forEach((a) => {
       const href = a.getAttribute("href");
-      if (href.startsWith("#") || href.startsWith("mailto:")) return;
+      if (href.startsWith("#") || href.startsWith("mailto:") || a.hasAttribute("download")) return;
       a.target = "_blank";
       a.rel = "noopener noreferrer";
     });
