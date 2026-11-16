@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leonardo Andrade Flores</title>
+  <meta name="description" content="Personal academic website of Leonardo Andrade Flores: research, publications and projects in robotics, LLM agents for manufacturing and digital twins.">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav">
+        <div class="links">
+          <a href="#about" data-section="about" data-i18n>About</a>
+          <a href="#research" data-section="research" data-i18n>Research</a>
+          <a href="#projects" data-section="projects" data-i18n>Projects</a>
+          <a href="#talks" data-section="talks" data-i18n>Talks</a>
+          <a href="#teaching" data-section="teaching" data-i18n>Teaching</a>
+        </div>
+        <div class="lang">
+          <button type="button" class="lang-btn" aria-haspopup="true" aria-expanded="false" aria-label="Language">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="9.5"/>
+              <path d="M2.5 12h19"/>
+              <path d="M12 2.5c2.6 2.6 4 6 4 9.5s-1.4 6.9-4 9.5c-2.6-2.6-4-6-4-9.5s1.4-6.9 4-9.5z"/>
+            </svg>
+            <span class="lang-code">EN</span>
+          </button>
+          <ul class="lang-menu" hidden></ul>
+        </div>
+        <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="about">
+    <section class="hero">
+      <div class="hero-text">
+        <h1 data-fill="name"></h1>
+        <p class="subtitle" id="subtitle"></p>
+        <p class="keywords" id="keywords"></p>
+        <div id="bio"></div>
+        <ul class="social" id="social"></ul>
+      </div>
+      <figure class="profile-card">
+        <img id="photo" src="" alt="">
+        <figcaption id="photo-caption"></figcaption>
+      </figure>
+    </section>
+
+    <section id="research" class="page-section">
+      <h2 data-i18n>Research</h2>
+      <p id="research-intro"></p>
+      <ul class="research-themes" id="research-themes"></ul>
+    </section>
+
+    <h2 data-i18n>News</h2>
+    <div id="news"></div>
+
+    <h2 data-i18n>Awards &amp; recognitions</h2>
+    <div id="awards"></div>
+
+    <section id="projects" class="page-section">
+      <h2 data-i18n>Projects</h2>
+      <p class="lead" data-i18n>Research systems I build and maintain.</p>
+      <div class="projects" id="project-list"></div>
+    </section>
+
+    <section id="talks" class="page-section">
+      <h2 data-i18n>Talks</h2>
+      <p class="lead" data-i18n>Conference presentations, webinars and internal sessions.</p>
+      <div id="talks-list"></div>
+    </section>
+
+    <section id="teaching" class="page-section">
+      <h2 data-i18n>Teaching &amp; Outreach</h2>
+      <p class="lead" data-i18n>Courses and workshops.</p>
+      <div id="teaching-list"></div>
+    </section>
+
+    <p class="lead" id="email-line" style="margin-top:2.5rem"></p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">&copy; <span data-fill="year"></span> <span data-fill="fullname"></span>. <span data-i18n>Static site, no tracking.</span></div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
