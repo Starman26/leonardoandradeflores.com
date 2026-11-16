@@ -10,7 +10,7 @@ window.SITE = {
     scholar: "https://scholar.google.com/citations?user=1G54gdUAAAAJ&hl=es",
     github: "https://github.com/Starman26",
     linkedin: "https://www.linkedin.com/in/leonardoandradeflores1/",
-    cv: "Andrade_Flores_CV.pdf",
+    cv: "Andrade_Flores_CV__.pdf",
     photo: "assets/profile.jpg",
     photoCaption: "Cambridge, 2026",
     bio: [
