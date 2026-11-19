@@ -85,7 +85,7 @@ window.SITE = {
       {
         title: "Data-driven Learning Factories: Integrating Tulip MES for Enhanced Operator Training",
         authors: "Leonardo Andrade Flores, Gabriela Lizeth Peña Zuñiga, Cristopher Ortiz Maldonado, Erick Ramírez-Cedillo, Alexandro Ortiz-Espinoza, Russel Bradley, Brian W. Anthony",
-        meta: `CLF 2026, Springer (to appear)`,
+        meta: `CLF 2026, Springer (in press)`,
         links: {},
         image: "assets/DATADRIVEN.png",
         bibtex: String.raw`@inproceedings{andradeflores2026datadriven,
@@ -94,7 +94,7 @@ window.SITE = {
   booktitle={Next-Gen Learning Factories: Proceedings of the 16th Conference on Learning Factories (CLF 2026), Volume 1},
   publisher={Springer},
   year={2026},
-  note={To appear}
+  note={In press}
 }`,
         text: `MES-based traceability for a learning factory that integrates ERP, PLC-controlled
           stations and cobots, using time-stamped execution data on operator interactions to
@@ -103,7 +103,7 @@ window.SITE = {
       {
         title: "FrEDie: An AI- and AR-Powered Virtual Assistant to Reduce Downtime and Foster Competence Development in Learning Factories",
         authors: "Alexandro Ortiz-Espinoza, Leonardo Andrade Flores, Erick Ramírez-Cedillo, Cesar Cantú, Hector Eduardo Tovar Mendoza, Daniela Herrera García, Pedro Ponce-Cruz",
-        meta: `CLF 2026, Springer (to appear)`,
+        meta: `CLF 2026, Springer (in press)`,
         links: {},
         image: "assets/fredai.png",
         bibtex: String.raw`@inproceedings{ortizespinoza2026fredie,
@@ -112,7 +112,7 @@ window.SITE = {
   booktitle={Next-Gen Learning Factories: Proceedings of the 16th Conference on Learning Factories (CLF 2026), Volume 1},
   publisher={Springer},
   year={2026},
-  note={To appear}
+  note={In press}
 }`,
         text: `An LLM-based assistant with orchestrated APIs and AR overlays on physical equipment
           that guides students through troubleshooting of robots, PLCs, HMIs and vision systems
@@ -121,7 +121,7 @@ window.SITE = {
       {
         title: "From Human Patrol to Automated Monitoring: Conversational AI for Safety in Industrial Facilities",
         authors: "Iván Enrique Rodríguez Estrada, Leonardo Andrade Flores, Gabriela Lizeth Peña Zuñiga, Adrián Oswaldo Salazar González, Erick Ramírez-Cedillo",
-        meta: `MICAI 2026 (to appear)`,
+        meta: `MICAI 2026 (in press)`,
         links: {},
         image: "assets/fredpatrol.png",
         bibtex: String.raw`@inproceedings{rodriguezestrada2026humanpatrol,
@@ -129,7 +129,7 @@ window.SITE = {
   author={Rodr{\'i}guez Estrada, Iv{\'a}n Enrique and Andrade Flores, Leonardo and Pe{\~n}a Zu{\~n}iga, Gabriela Lizeth and Salazar Gonz{\'a}lez, Adri{\'a}n Oswaldo and Ram{\'i}rez-Cedillo, Erick},
   booktitle={Mexican International Conference on Artificial Intelligence (MICAI 2026)},
   year={2026},
-  note={To appear}
+  note={In press}
 }`,
         text: `A conversational multi-agent monitoring layer deployed above a certified PL e / SIL 3
           safety boundary on a KUKA KR6 cell, adding graduated speed limiting and operator
@@ -138,7 +138,7 @@ window.SITE = {
       {
         title: "From Intention to Action, ORION TRACE: An AI-Driven Platform for Commit Tracking, KPI Transparency, and Project-Management Assessment in a Flexible Manufacturing Cell Challenge",
         authors: "Erick Ramírez-Cedillo, Leonardo Andrade Flores, Gabriela Lizeth Peña Zuñiga, Adrián Oswaldo Salazar González",
-        meta: `IEEE TALE 2026 (to appear)`,
+        meta: `IEEE TALE 2026 (in press)`,
         links: {},
         image: "assets/orion_trace.png",
         bibtex: String.raw`@inproceedings{ramirezcedillo2026oriontrace,
@@ -147,7 +147,7 @@ window.SITE = {
   booktitle={2026 IEEE International Conference on Teaching, Assessment, and Learning for Engineering (TALE)},
   publisher={IEEE},
   year={2026},
-  note={To appear}
+  note={In press}
 }`,
         text: `A platform with an AI agent and device-level validation that records what student
           teams commit to versus what they deliver in a six-team ISA-95 manufacturing cell.
@@ -177,7 +177,6 @@ window.SITE = {
         authors: "Leonardo Andrade Flores, David Ángeles-Rojas, Sofía Pérez-Pineda, Miguel Garzon-Parra, Ibrahim El Khatib, Russel Bradley, Pedro Ponce, Erick Ramírez-Cedillo, Brian W. Anthony",
         meta: `Under review, NAMRC 2027`,
         links: {},
-        image: "assets/NERVE.png",
         text: `Paired fault injection on a fiber-extrusion machine and its digital twin shows that a
           twin calibrated only on healthy data reproduces closed-loop fault masking, but mispredicts
           the unregulated fiber diameter and overestimates motor-duty response by up to 47%.`,
@@ -185,13 +184,12 @@ window.SITE = {
       {
         title: "Citizen Developer-Driven Manufacturing Execution Systems: A Low-Code/No-Code Design Framework for Changeable Production Environments",
         authors: "Russel Bradley, Leonardo Andrade Flores, Gabriela Lizeth Peña Zuñiga, Renzo Solorzano Pinzas, Stanley S. Salim, Emily S. Ha, Mathew J. Reynolds, Sashlin Jagdessi, Wenjian Zhao, Yong Ng, Renne Cooper, Rebecca Levy, Ángel Mario Alarcón López, André Mauricio Mendoza Quevedo, Erick Ramírez-Cedillo, Brian W. Anthony",
-        meta: `Under review, 2026`,
+        meta: `Revised and resubmitted, <em>Journal of Manufacturing Systems</em>, 2026`,
         links: {},
-        image: "assets/3.1.1FigNew.png",
         bibtex: String.raw`@unpublished{bradley2026citizen,
   title={Citizen Developer-Driven Manufacturing Execution Systems: A Low-Code/No-Code Design Framework for Changeable Production Environments},
   author={Bradley, Russel and Andrade Flores, Leonardo and Pe{\~n}a Zu{\~n}iga, Gabriela Lizeth and Solorzano Pinzas, Renzo and Salim, Stanley S. and Ha, Emily S. and Reynolds, Mathew J. and Jagdessi, Sashlin and Zhao, Wenjian and Ng, Yong and Cooper, Renne and Levy, Rebecca and Alarc{\'o}n L{\'o}pez, {\'A}ngel Mario and Mendoza Quevedo, Andr{\'e} Mauricio and Ram{\'i}rez-Cedillo, Erick and Anthony, Brian W.},
-  note={Manuscript submitted for publication},
+  note={Revised and resubmitted to Journal of Manufacturing Systems},
   year={2026}
 }`,
         text: `A data-centric framework that lets manufacturing experts build and modify a full MES

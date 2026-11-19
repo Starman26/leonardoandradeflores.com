@@ -27,7 +27,8 @@
   const tr = (s) => (lang === "en" ? s : dict[lang].get(norm(s)) ?? s);
   const trDate = (d) =>
     lang === "en" ? d : String(d).replace(/\b[A-Z][a-z]{2}\b/g, (m) => I.months[lang][I.months.en.indexOf(m)] ?? m);
-  const trMeta = (m) => m.replace("(to appear)", tr("(to appear)")).replace("Under review", tr("Under review"));
+  const trMeta = (m) =>
+    m.replace("(in press)", tr("(in press)")).replace("Under review", tr("Under review")).replace("Revised and resubmitted", tr("Revised and resubmitted"));
 
   const linkList = (links = {}) =>
     Object.entries(links)

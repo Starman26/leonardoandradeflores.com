@@ -37,7 +37,8 @@ window.I18N = {
     { en: "paper", es: "artículo", fr: "article", de: "Paper" },
     { en: "code", es: "código", fr: "code", de: "Code" },
     { en: "website", es: "sitio web", fr: "site web", de: "Website" },
-    { en: "(to appear)", es: "(en prensa)", fr: "(à paraître)", de: "(im Erscheinen)" },
+    { en: "(in press)", es: "(en prensa)", fr: "(sous presse)", de: "(im Druck)" },
+    { en: "Revised and resubmitted", es: "Revisado y reenviado", fr: "Révisé et soumis à nouveau", de: "Überarbeitet und erneut eingereicht" },
     { en: "Under review", es: "En revisión", fr: "En cours d'évaluation", de: "In Begutachtung" },
   ],
 
