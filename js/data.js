@@ -182,10 +182,28 @@ window.SITE = {
           twin calibrated only on healthy data reproduces closed-loop fault masking, but mispredicts
           the unregulated fiber diameter and overestimates motor-duty response by up to 47%.`,
       },
+      {
+        title: "Citizen Developer-Driven Manufacturing Execution Systems: A Low-Code/No-Code Design Framework for Changeable Production Environments",
+        authors: "Russel Bradley, Leonardo Andrade Flores, Gabriela Lizeth Peña Zuñiga, Renzo Solorzano Pinzas, Stanley S. Salim, Emily S. Ha, Mathew J. Reynolds, Sashlin Jagdessi, Wenjian Zhao, Yong Ng, Renne Cooper, Rebecca Levy, Ángel Mario Alarcón López, André Mauricio Mendoza Quevedo, Erick Ramírez-Cedillo, Brian W. Anthony",
+        meta: `Under review, 2026`,
+        links: {},
+        image: "assets/3.1.1FigNew.png",
+        bibtex: String.raw`@unpublished{bradley2026citizen,
+  title={Citizen Developer-Driven Manufacturing Execution Systems: A Low-Code/No-Code Design Framework for Changeable Production Environments},
+  author={Bradley, Russel and Andrade Flores, Leonardo and Pe{\~n}a Zu{\~n}iga, Gabriela Lizeth and Solorzano Pinzas, Renzo and Salim, Stanley S. and Ha, Emily S. and Reynolds, Mathew J. and Jagdessi, Sashlin and Zhao, Wenjian and Ng, Yong and Cooper, Renne and Levy, Rebecca and Alarc{\'o}n L{\'o}pez, {\'A}ngel Mario and Mendoza Quevedo, Andr{\'e} Mauricio and Ram{\'i}rez-Cedillo, Erick and Anthony, Brian W.},
+  note={Manuscript submitted for publication},
+  year={2026}
+}`,
+        text: `A data-centric framework that lets manufacturing experts build and modify a full MES
+          on low-code/no-code platforms without software engineering expertise. Deployed end to end
+          at the MIT and Tec FrED Factories, with a citizen-developer usability study (n=10, SUS 70.75)
+          and a workshop (n=15) with a mean app build time of 5.5 minutes.`,
+      },
     ],
   },
 
   news: [
+    { date: "Nov 2026", text: `Released <strong>ORION MCP</strong>, an MCP server and Python library for coding agents to control industrial hardware. In a 540-session study in simulation, it raised task success over the vendor SDK from 63–70% to 95–98% for smaller models. <a href="#project-orion-mcp">See project</a>` },
     { date: "Nov 2026", text: `Our paper <strong>"ORION: Teaching Itself to Teach"</strong> was presented at Prototypes for Humanity in Dubai.` },
     { date: "Oct 2026", text: `Started a research stay at the <a href="https://devicerealization.mit.edu/">MIT Device Realization Laboratory</a>.` },
     { date: "2026", text: `Papers accepted at <strong>NAMRC 54</strong> (one), <strong>CLF 2026</strong> (two), <strong>MICAI 2026</strong> (one) and <strong>IEEE TALE 2026</strong> (one).` },
@@ -233,6 +251,42 @@ window.SITE = {
       links: { website: "https://n-soul.ai" },
       note: "code: proprietary, available on request",
       image: "assets/NSOUL.png",
+    },
+    {
+      id: "project-orion-mcp",
+      name: "ORION MCP",
+      tagline: "Industrial hardware as tools for coding agents",
+      description: `An MCP server and Python library that let coding agents control industrial
+        hardware. Robot and camera primitives (motion, pixel-to-base transforms, object
+        localization) become tools an LLM agent calls directly, instead of writing code against
+        each vendor's SDK.`,
+      points: [
+        ["Evaluation", `Claude Code on a simulated xArm in MuJoCo: 3 tasks, 20 seeds each,
+          540 sessions.`],
+        ["Results", `compared with the vendor SDK, task success rose from 63–70% to 95–98% for
+          smaller models and to 100% for all models with a one-call localization tool, using up to
+          3.5x fewer tokens on the smallest model. Gains narrow for the strongest model.`],
+      ],
+      links: {},
+      image: "assets/Project.png",
+      gallery: ["assets/MCP_TRY1.gif", "assets/MCP_TRY2.gif", "assets/MCP_TRY3.gif"],
+    },
+    {
+      id: "project-orion-trace-hub",
+      name: "ORION TRACE Data HUB",
+      tagline: "Late-risk prediction from commit history",
+      description: `A follow-up to our IEEE TALE 2026 paper: a client-side ML layer for the Data HUB
+        that learns from the commit history of each course mission.`,
+      points: [
+        ["Late-risk prediction", `a regularized logistic regression and a boosted-stumps model
+          estimate which work areas are likely to miss their deadlines, using only information
+          available before each deadline.`],
+        ["Behavior profiles", `K-means, with k selected by silhouette score, groups students into
+          behavior profiles.`],
+        ["Pilot", `a flexible-manufacturing course with 31 students, 6 teams and 248 commits.`],
+      ],
+      links: {},
+      image: "assets/oriontrace.png",
     },
     {
       id: "project-earlier",

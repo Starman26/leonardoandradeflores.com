@@ -287,8 +287,35 @@ window.I18N = {
           geschlossenen Regelkreis reproduziert, aber den ungeregelten Faserdurchmesser falsch
           vorhersagt und die Reaktion des Motor-Tastgrads um bis zu 47 % überschätzt.`,
     },
+    {
+      en: `A data-centric framework that lets manufacturing experts build and modify a full MES
+          on low-code/no-code platforms without software engineering expertise. Deployed end to end
+          at the MIT and Tec FrED Factories, with a citizen-developer usability study (n=10, SUS 70.75)
+          and a workshop (n=15) with a mean app build time of 5.5 minutes.`,
+      es: `Un framework centrado en datos que permite a expertos en manufactura construir y modificar
+          un MES completo en plataformas low-code/no-code sin experiencia en ingeniería de software.
+          Desplegado de principio a fin en las FrED Factories del MIT y del Tec, con un estudio de
+          usabilidad con citizen developers (n=10, SUS 70.75) y un taller (n=15) con un tiempo medio de
+          construcción de aplicaciones de 5.5 minutos.`,
+      fr: `Un framework centré sur les données qui permet à des experts de la production de construire
+          et de modifier un MES complet sur des plateformes low-code/no-code, sans expertise en génie
+          logiciel. Déployé de bout en bout dans les FrED Factories du MIT et du Tec, avec une étude
+          d'utilisabilité auprès de citizen developers (n=10, SUS 70,75) et un atelier (n=15) où une
+          application est construite en 5,5 minutes en moyenne.`,
+      de: `Ein datenzentriertes Framework, mit dem Fertigungsexperten ein vollständiges MES auf
+          Low-Code/No-Code-Plattformen ohne Softwareentwicklungskenntnisse aufbauen und anpassen können.
+          End-to-End eingesetzt in den FrED Factories des MIT und des Tec, mit einer Usability-Studie
+          mit Citizen Developern (n=10, SUS 70,75) und einem Workshop (n=15) mit einer mittleren
+          Erstellungszeit von 5,5 Minuten pro Anwendung.`,
+    },
 
     // News
+    {
+      en: `Released <strong>ORION MCP</strong>, an MCP server and Python library for coding agents to control industrial hardware. In a 540-session study in simulation, it raised task success over the vendor SDK from 63–70% to 95–98% for smaller models. <a href="#project-orion-mcp">See project</a>`,
+      es: `Publiqué <strong>ORION MCP</strong>, un servidor MCP y una biblioteca de Python para que agentes de programación controlen hardware industrial. En un estudio de 540 sesiones en simulación, elevó la tasa de éxito frente al SDK del fabricante de 63–70% a 95–98% en los modelos más pequeños. <a href="#project-orion-mcp">Ver proyecto</a>`,
+      fr: `Publication d'<strong>ORION MCP</strong>, un serveur MCP et une bibliothèque Python permettant à des agents de codage de piloter du matériel industriel. Dans une étude de 540 sessions en simulation, il a fait passer le taux de réussite, par rapport au SDK du fabricant, de 63–70 % à 95–98 % pour les modèles plus petits. <a href="#project-orion-mcp">Voir le projet</a>`,
+      de: `<strong>ORION MCP</strong> veröffentlicht, ein MCP-Server und eine Python-Bibliothek, mit denen Coding-Agenten Industriehardware steuern. In einer Simulationsstudie mit 540 Sitzungen stieg die Erfolgsquote gegenüber dem Hersteller-SDK bei kleineren Modellen von 63–70 % auf 95–98 %. <a href="#project-orion-mcp">Zum Projekt</a>`,
+    },
     {
       en: `Our paper <strong>"ORION: Teaching Itself to Teach"</strong> was presented at Prototypes for Humanity in Dubai.`,
       es: `Nuestro artículo <strong>"ORION: Teaching Itself to Teach"</strong> se presentó en Prototypes for Humanity, en Dubái.`,
@@ -425,6 +452,109 @@ window.I18N = {
       de: `eine Testumgebung für die sichere Bedienung unterschiedlichster Industriesysteme in natürlicher Sprache.`,
     },
     { en: "code: proprietary, available on request", es: "código: propietario, disponible bajo solicitud", fr: "code : propriétaire, disponible sur demande", de: "Code: proprietär, auf Anfrage erhältlich" },
+
+    // Projects: ORION MCP
+    {
+      en: "Industrial hardware as tools for coding agents",
+      es: "Hardware industrial como herramientas para agentes de programación",
+      fr: "Du matériel industriel comme outils pour agents de codage",
+      de: "Industriehardware als Werkzeuge für Coding-Agenten",
+    },
+    {
+      en: `An MCP server and Python library that let coding agents control industrial
+        hardware. Robot and camera primitives (motion, pixel-to-base transforms, object
+        localization) become tools an LLM agent calls directly, instead of writing code against
+        each vendor's SDK.`,
+      es: `Un servidor MCP y una biblioteca de Python que permiten a agentes de programación controlar
+        hardware industrial. Las primitivas de robot y cámara (movimiento, transformaciones de píxel a
+        base, localización de objetos) se vuelven herramientas que un agente LLM llama directamente, en
+        lugar de escribir código contra el SDK de cada fabricante.`,
+      fr: `Un serveur MCP et une bibliothèque Python qui permettent à des agents de codage de piloter du
+        matériel industriel. Les primitives robot et caméra (mouvement, transformations pixel-base,
+        localisation d'objets) deviennent des outils qu'un agent LLM appelle directement, au lieu
+        d'écrire du code pour le SDK de chaque fabricant.`,
+      de: `Ein MCP-Server und eine Python-Bibliothek, mit denen Coding-Agenten Industriehardware steuern.
+        Roboter- und Kameraprimitive (Bewegung, Pixel-zu-Basis-Transformationen, Objektlokalisierung)
+        werden zu Werkzeugen, die ein LLM-Agent direkt aufruft, statt Code gegen das SDK jedes
+        Herstellers zu schreiben.`,
+    },
+    { en: "Evaluation", es: "Evaluación", fr: "Évaluation", de: "Evaluation" },
+    {
+      en: `Claude Code on a simulated xArm in MuJoCo: 3 tasks, 20 seeds each,
+          540 sessions.`,
+      es: `Claude Code sobre un xArm simulado en MuJoCo: 3 tareas, 20 semillas cada una, 540 sesiones.`,
+      fr: `Claude Code sur un xArm simulé dans MuJoCo : 3 tâches, 20 graines chacune, 540 sessions.`,
+      de: `Claude Code an einem simulierten xArm in MuJoCo: 3 Aufgaben, je 20 Seeds, 540 Sitzungen.`,
+    },
+    { en: "Results", es: "Resultados", fr: "Résultats", de: "Ergebnisse" },
+    {
+      en: `compared with the vendor SDK, task success rose from 63–70% to 95–98% for
+          smaller models and to 100% for all models with a one-call localization tool, using up to
+          3.5x fewer tokens on the smallest model. Gains narrow for the strongest model.`,
+      es: `frente al SDK del fabricante, la tasa de éxito subió de 63–70% a 95–98% en los modelos más
+          pequeños y a 100% en todos los modelos con una herramienta de localización de una sola
+          llamada, usando hasta 3.5 veces menos tokens en el modelo más pequeño. La ventaja se reduce
+          en el modelo más potente.`,
+      fr: `par rapport au SDK du fabricant, le taux de réussite passe de 63–70 % à 95–98 % pour les
+          modèles plus petits et à 100 % pour tous les modèles avec un outil de localisation en un seul
+          appel, avec jusqu'à 3,5 fois moins de tokens pour le plus petit modèle. L'écart se réduit pour
+          le modèle le plus performant.`,
+      de: `im Vergleich zum Hersteller-SDK stieg die Erfolgsquote bei kleineren Modellen von 63–70 % auf
+          95–98 % und mit einem Lokalisierungswerkzeug mit nur einem Aufruf bei allen Modellen auf 100 %,
+          bei bis zu 3,5-mal weniger Tokens für das kleinste Modell. Beim stärksten Modell fällt der
+          Vorteil geringer aus.`,
+    },
+
+    // Projects: ORION TRACE Data HUB
+    {
+      en: "Late-risk prediction from commit history",
+      es: "Predicción de riesgo de retraso a partir del historial de commits",
+      fr: "Prédiction du risque de retard à partir de l'historique des commits",
+      de: "Vorhersage von Verzugsrisiken aus der Commit-Historie",
+    },
+    {
+      en: `A follow-up to our IEEE TALE 2026 paper: a client-side ML layer for the Data HUB
+        that learns from the commit history of each course mission.`,
+      es: `Continuación de nuestro artículo en IEEE TALE 2026: una capa de ML del lado del cliente para
+        el Data HUB que aprende del historial de commits de cada misión del curso.`,
+      fr: `Suite de notre article à IEEE TALE 2026 : une couche de ML côté client pour le Data HUB, qui
+        apprend de l'historique des commits de chaque mission du cours.`,
+      de: `Fortsetzung unseres Beitrags bei IEEE TALE 2026: eine clientseitige ML-Schicht für den Data
+        HUB, die aus der Commit-Historie jeder Kursmission lernt.`,
+    },
+    { en: "Late-risk prediction", es: "Predicción de riesgo de retraso", fr: "Prédiction du risque de retard", de: "Vorhersage von Verzugsrisiken" },
+    {
+      en: `a regularized logistic regression and a boosted-stumps model
+          estimate which work areas are likely to miss their deadlines, using only information
+          available before each deadline.`,
+      es: `una regresión logística regularizada y un modelo de boosted stumps estiman qué áreas de
+          trabajo probablemente no cumplirán sus fechas límite, usando solo información disponible antes
+          de cada fecha límite.`,
+      fr: `une régression logistique régularisée et un modèle de boosted stumps estiment quels domaines
+          de travail risquent de manquer leurs échéances, en n'utilisant que les informations
+          disponibles avant chaque échéance.`,
+      de: `eine regularisierte logistische Regression und ein Boosted-Stumps-Modell schätzen, welche
+          Arbeitsbereiche ihre Fristen wahrscheinlich verpassen, und nutzen dabei nur Informationen, die
+          vor der jeweiligen Frist verfügbar sind.`,
+    },
+    { en: "Behavior profiles", es: "Perfiles de comportamiento", fr: "Profils de comportement", de: "Verhaltensprofile" },
+    {
+      en: `K-means, with k selected by silhouette score, groups students into
+          behavior profiles.`,
+      es: `K-means, con k elegido mediante el coeficiente de silueta, agrupa a los estudiantes en
+          perfiles de comportamiento.`,
+      fr: `K-means, avec k choisi par le score de silhouette, regroupe les étudiants en profils de
+          comportement.`,
+      de: `K-Means, mit k ausgewählt über den Silhouettenkoeffizienten, gruppiert die Studierenden in
+          Verhaltensprofile.`,
+    },
+    { en: "Pilot", es: "Piloto", fr: "Pilote", de: "Pilotprojekt" },
+    {
+      en: `a flexible-manufacturing course with 31 students, 6 teams and 248 commits.`,
+      es: `un curso de manufactura flexible con 31 estudiantes, 6 equipos y 248 commits.`,
+      fr: `un cours de fabrication flexible avec 31 étudiants, 6 équipes et 248 commits.`,
+      de: `ein Kurs zur flexiblen Fertigung mit 31 Studierenden, 6 Teams und 248 Commits.`,
+    },
 
     // Projects: Earlier work
     { en: "Earlier work", es: "Trabajo previo", fr: "Travaux antérieurs", de: "Frühere Arbeiten" },

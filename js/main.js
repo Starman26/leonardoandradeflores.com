@@ -165,7 +165,7 @@
     const bib = t.bibtex ? `<a href="#" class="bibtex-copy" data-bibtex="${esc(t.bibtex)}">bibtex</a>` : "";
     const links = [...linkList(t.links), bib].filter(Boolean).join(" / ");
     return `<li class="research-item">
-      <a class="research-img" href="${esc(t.image)}"><img src="${esc(t.image)}" alt=""></a>
+      ${t.image ? `<a class="research-img" href="${esc(t.image)}"><img src="${esc(t.image)}" alt=""></a>` : `<div class="research-img"></div>`}
       <div>
         <h3 class="research-title">${title}</h3>
         <p class="research-authors">${boldMe(t.authors)}</p>
@@ -190,6 +190,7 @@
         ${points ? `<ul class="project-points">${points}</ul>` : ""}
         ${links ? `<p class="research-links">${links}</p>` : ""}
       </div>
+      ${p.gallery ? `<div class="project-gallery">${p.gallery.map((src) => `<a href="${esc(src)}"><img src="${esc(src)}" alt="" loading="lazy"></a>`).join("")}</div>` : ""}
     </article>`;
   };
 
